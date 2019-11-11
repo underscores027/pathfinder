@@ -140,14 +140,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 >## Marco de Entrega 03 em:<br>
 
-### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-#### a) Pontos Chave do MINI-MUNDO
-#### b) 5 principais tabelas/fluxos do sistema
-#### c) Perguntas que podem ser respondidads com o sistema proposto
-#### d) Modelo Conceitual
-#### e) Modelo Lógico
-#### f) Relatórios e Gráficos mais importantes para o sistema (mínimo 5) 
-#### --> Tempo de apresentação 10 minutos
+### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (pecha kutcha)<br>
+#### --> Tempo de apresentação 6:40 
 
 
 ### 11 Backup completo do banco de dados postgres 
