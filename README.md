@@ -7,6 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
@@ -17,8 +18,8 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
+Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
+Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
@@ -42,6 +43,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 * Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
 * Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
 * Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -52,19 +54,19 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
     
+    
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
+    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
+    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
+        * informe quais são as 3 principais entidades do sistema em densenvolvimento (se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
+    C) Principais fluxos de informação/entidades do sistema (mínimo 3). Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
+    D) Qualidade e Clareza
+        Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
+        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
+        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
     
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
     
         
     
@@ -79,10 +81,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
-#### 5.3 Principais fluxos de informação e principais tabelas do sistema     
-    a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
-    b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
-    c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
