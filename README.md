@@ -133,7 +133,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 9.11 Relatórios e Gráficos 
     a)análises e resultados provenientes do banco de dados
-![Exemplo de relatório para o trabalho]    (https://github.com/discipbd1/trabalho_bd1/blob/master/arquivos/BD1_Psycopg2WithPandas_relat%C3%B3rios_lab.ipynb?raw=true "Relatório Colab/Jupyter")
+![Exemplo de relatório para o trabalho]    (https://github.com/discipbd1/trabalho_bd1/blob/master/arquivos/BD1_Psycopg2WithPandas_relat%C3%B3rios_lab.ipynb "Relatório Colab/Jupyter")
     
 
 >## Marco de Entrega 03 em:<br>
