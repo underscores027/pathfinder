@@ -135,17 +135,20 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 >## Marco de Entrega 01 até o tópico 9.10:<br>
 
-#### 10 Relatórios e Gráficos 
-    a)análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
-    b)link com exemplo de relatórios será dispniblizado pelo professor no AVA
+### 10 Relatórios e Gráficos 
+
+#### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
+#### b) link com exemplo de relatórios será dispniblizado pelo professor no AVA
     
 
-### 11	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL (pecha kutcha)<br>
-#### --> Tempo de apresentação 6:40 
+### 11	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
+
+#### a) Modelo (pecha kutcha)<br>
+#### b) Tempo de apresentação 6:40 
 
 >## Marco de Entrega 02 até o tópico 11:<br>
 
-### 11  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
 ##### About Formatting
