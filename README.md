@@ -133,7 +133,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
->## Marco de Entrega 01 até o tópico 9.10:<br>
+># Marco de Entrega 01 até o tópico 9.10:<br>
 
 ### 10 Relatórios e Gráficos 
 
@@ -146,8 +146,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### a) Modelo (pecha kutcha)<br>
 #### b) Tempo de apresentação 6:40 
 
->## Marco de Entrega 02 até o tópico 11:<br>
-
+># Marco de Entrega 02 até o tópico 11:<br>
+<br>
+<br>
+<br>
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
