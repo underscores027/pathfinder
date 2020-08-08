@@ -38,11 +38,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
+* Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
+* Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
+* Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
+> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
+* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
 
  
  
@@ -91,8 +92,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..) 
         
->## Marco de Entrega 01 em:<br>
-        
+       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
@@ -120,9 +120,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 
->## Marco de Entrega 02 em:<br>
+
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+
+
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
@@ -130,28 +133,19 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
+>## Marco de Entrega 01 até o tópico 9.10:<br>
 
-#### 9.11 Relatórios e Gráficos 
-    a)análises e resultados provenientes do banco de dados
-![Exemplo de relatório para o trabalho]    (https://github.com/discipbd1/trabalho_bd1/blob/master/arquivos/BD1_Psycopg2WithPandas_relat%C3%B3rios_lab.ipynb "Relatório Colab/Jupyter")
+#### 10 Relatórios e Gráficos 
+    a)análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
+    b)link com exemplo de relatórios será dispniblizado pelo professor no AVA
     
 
->## Marco de Entrega 03 em:<br>
-
-### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL (pecha kutcha)<br>
+### 11	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL (pecha kutcha)<br>
 #### --> Tempo de apresentação 6:40 
 
+>## Marco de Entrega 02 até o tópico 11:<br>
 
-### 11 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
-
->## Marco de Entrega 04 em:<br>
-
-
-### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+### 11  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
 ##### About Formatting
