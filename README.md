@@ -118,31 +118,36 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+#### 9.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+    a) Criar minimo 3 de exclusão
+    b) Criar minimo 3 de atualização
 
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
-
-
+#### 9.6	CONSULTAS COM INNER JOIN E ORDER BY (Mínimo 6)<br>
+    a) Uma junção que envolva todas as tabelas possuindo no mínimo 2 registros no resultado
+    b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+    a) Criar minimo 2 envolvendo algum tipo de junção
 
+#### 9.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)<br>
+    a) Criar minimo 1 de cada tipo
 
-
-#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join
+        a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 
-#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+#### 9.10	SUBCONSULTAS (Mínimo 4)<br>
+     a) Criar minimo 1 envolvendo GROUP BY
+     b) Criar minimo 1 envolvendo algum tipo de junção
 
 ># Marco de Entrega 02: Do item 9.2 até o ítem 9.10<br>
 
-### 10 Relatórios e Gráficos 
+### 10 RELATÓRIOS E GRÁFICOS
 
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
+#### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos principais relatórios/resultados que podem ser obtidos.
+
     
 
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
