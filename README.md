@@ -141,7 +141,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 10 Relatórios e Gráficos 
 
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
-#### b) link com exemplo de relatórios será dispniblizado pelo professor no AVA
+#### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
     
 
 ### 11	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
