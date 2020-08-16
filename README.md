@@ -9,7 +9,7 @@ primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 ...<br>
 
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
