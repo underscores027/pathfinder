@@ -104,6 +104,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+># Marco de Entrega 01: Do item 1 até o item 9.1<br>
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
@@ -133,7 +136,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
-># Marco de Entrega 01 até o tópico 9.10:<br>
+># Marco de Entrega 02: Do item 9.2 até o ítem 9.10<br>
 
 ### 10 Relatórios e Gráficos 
 
@@ -146,7 +149,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### a) Modelo (pecha kutcha)<br>
 #### b) Tempo de apresentação 6:40 
 
-># Marco de Entrega 02 até o tópico 11:<br>
+># Marco de Entrega 03: Itens 10 e 11<br>
 <br>
 <br>
 <br>
