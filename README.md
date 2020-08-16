@@ -144,7 +144,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
     
 
-### 11	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
+### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
 #### a) Modelo (pecha kutcha)<br>
 #### b) Tempo de apresentação 6:40 
