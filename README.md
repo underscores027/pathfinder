@@ -158,8 +158,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ># Marco de Entrega 03: Itens 10 e 11<br>
 <br>
 <br>
-<br>
-###  12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+<br> 
+
+
+
+### 12 FORMATACAO NO GIT:<br> 
+https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
 ##### About Formatting
