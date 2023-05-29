@@ -24,8 +24,8 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
  
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Alt text](./src/prototipo.png)
+![Design no Figma](https://www.figma.com/file/hMKfHIgBpal9FpKLGiPlvf/Untitled?type=design&fuid=956652625531670595")
  
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
    
@@ -50,7 +50,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
     
     
 ### 5.MODELO CONCEITUAL<br>       
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/modelo_conceitual.png)    
+![Alt text](./src/modelo_conceitual.png)    
         
     
 #### 5.1 Validação do Modelo Conceitual
@@ -66,7 +66,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/modelo_logico.png)   
+![Alt text](./src/modelo_logico.png)   
 
 ### 7	MODELO FÍSICO<br>
 ``` 
@@ -159,15 +159,15 @@ values
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	VEICULO <br>
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_1.png) 
+![Alt text](./src/select_1.png) 
 #### 9.2	LOGIN_PESSOA <br>
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_2.png) 
+![Alt text](./src/select_2.png) 
 #### 9.3	CARONA <br>
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_3.png) 
+![Alt text](./src/select_3.png) 
 #### 9.4	PARTICIPANTE_CARONA <br>
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_4.png) 
+![Alt text](./src/select_4.png) 
 #### 9.5	AVALIACAO <br>
-![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_5.png) 
+![Alt text](./src/select_5.png) 
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
