@@ -1,12 +1,12 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  PathFinder
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Eduardo Henrique Próspero Souza:duvrdx@gmail.com<br>
-Lucas Vieira da Silva:lucasvieiradasilva07@gmail.com<br>
+Eduardo Henrique Próspero Souza: duvrdx@gmail.com<br>
+Lucas Vieira da Silva: lucasvieiradasilva07@gmail.com<br>
 Mattheus Colares Gonçalves<br>
 Victor Oliveira Santos<br>
 
@@ -19,33 +19,26 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
-Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+> Essa plataforma conecta pessoas que oferecem caronas a pessoas que procuram caronas, proporcionando uma experiência de viagem flexível e personalizada. Você pode se cadastrar como um usuário do sistema, fornecendo informações básicas como nome, telefone, e-mail e criando um login seguro com senha e nome de usuário exclusivos. É possível compartilhar sua viagem diária para o trabalho com outras pessoas que seguem a mesma rota. Ou talvez você esteja planejando uma viagem de longa distância e queira dividir os custos e tornar a jornada mais agradável com companheiros de viagem conhecidos.
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
+ 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+ 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-* Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-* Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-* Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
-* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+   
+> A Empresa PathFinder precisa inicialmente dos seguintes relatórios:
+* Relatório que mostre o nome de cada usuario e o número de caronas que participou/ofertou
+  
+* Relatório relativo às avaliações feitas pelos usuários, bem como as informações da carona referida
+  
+* Relatorio que mostre para cada linha obtida o veículo, seu dono, número de vagas e placa
+  
+* Relatório que mostre as informações relacionadas a todos os usuários
+  
+* Relatório que obtenha a avalição média de cada usuário, e o número total de avaliações
 
  
  
@@ -56,19 +49,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
     
     
-### 5.MODELO CONCEITUAL<br>
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
-    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
-    C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
-    D) Qualidade e Clareza
-        Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
-        
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
-    
-    
+### 5.MODELO CONCEITUAL<br>       
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/modelo_conceitual.png)    
         
     
 #### 5.1 Validação do Modelo Conceitual
@@ -84,26 +66,108 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/modelo_logico.png)   
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
-        
+``` 
+CREATE TABLE login_pessoa (
+    id serial PRIMARY KEY,
+    nome varchar(127),
+    telefone bigint,
+    senha varchar(127),
+    email varchar(127) UNIQUE
+);
+
+CREATE TABLE veiculo (
+    id serial PRIMARY KEY,
+    placa char(7) UNIQUE,
+    descricao varchar(127),
+    assentos smallint,
+    id_dono integer REFERENCES login_pessoa(id)
+);
+
+CREATE TABLE carona (
+    id serial PRIMARY KEY,
+    local_saida point,
+    local_chegada point,
+    horario_saida timestamp,
+    horario_chegada timestamp,
+    id_veiculo integer REFERENCES veiculo(id)
+);
+
+CREATE TABLE participante_carona (
+    id serial PRIMARY KEY,
+    id_carona integer REFERENCES carona(id),
+    id_avaliador integer REFERENCES login_pessoa(id),
+    id_avaliado integer REFERENCES login_pessoa(id)
+);
+
+CREATE TABLE avaliacao (
+    id integer PRIMARY KEY REFERENCES participante_carona(id),
+    nota smallint,
+    comentario text
+);
+```        
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+```
+insert into login_pessoa (nome, telefone, senha, email)values
+('Norma Fisher',27900090266,'c97997164f74d4e24b3d7a4ce0e8b25c','Norf@hotmail.com'),
+('Jorge Sullivan',27900093370,'3a141651ed83375318e912e56e61f552','jjorsu@hotmail.com'),
+('Elizabeth Woods',27900082926,'5f549708104b8b011a2527a1414b4986','elizwoods1@hotmail.com'),
+('Susan Wagner',27900067247,'6d229d10cc8db19c74a2452775d42a63','susanmwz@hotmail.com'),
+('Peter Montgomery',27900036845,'2f01779b820d01742b0835f7d7dd603b','peter3421m@hotmail.com'),
+('Theodore Mcgrath',27900002919,'5a9e0eb798c7fe93a20309cb709e5dee','theomogr2@hotmail.com');
+
+insert into veiculo (placa,descricao,assentos,id_dono)
+values
+('MSG6795','ford ka',2,1),
+('MRH0184','motocicleta',1,5),
+('MPJ8659','fiat palio preto',3,2),
+('MPR4764','carro duas portas',3,6),
+('MPX1937','kombi',7,5),
+('MTB1418','camionete',1,3);
+
+insert into carona (local_saida, local_chegada,horario_saida,horario_chegada,id_veiculo)
+values
+('(1.0, 0.0)', '(1.0, 1.0)','2022-12-31 20:00:00.00000','2022-12-31 20:58:52.23498',5),
+('(-1.0, -1.0)','(0.0, 0.0)','2022-12-31 13:30:00.00000','2022-12-31 14:48:02.03921',4),
+('(-3.0, -2.0)','(-1.0, 2.0)','2023-01-23 03:22:24.00212','2023-01-23 04:00:46.39412',2),
+('(-2.0, 0.0)','(2.0, 5.0)','2023-02-02 13:00:00.00000','2023-02-02 13:56:01.93281',6),
+('(1.0, 1.0)','(1.2, 8.0)','2023-02-03 09:30:00.00000','2023-02-03 10:10:32.02930',1),
+('(2.0, -5.0)','(2.0, 3.0)','2023-02-03 15:00:00.00000','2023-02-03 16:00:01.92835',3);
+
+insert into participante_carona (id_carona, id_avaliador, id_avaliado)
+values
+(6,6,4),
+(6,4,6),
+(4,3,2),
+(3,2,3),
+(1,1,5),
+(2,5,1);
+
+insert into avaliacao (id, comentario, nota)
+values
+(1,'paia',2),
+(2,'maneirin',5),
+(3,'não respeita as leis de trânsito',4),
+(4,'bem rapidinho ele',5),
+(5,'passageiro tava com cachorro',1),
+(6,'passageiro falou muito',3)
+```
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+#### 9.1	VEICULO <br>
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_1.png) 
+#### 9.2	LOGIN_PESSOA <br>
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_2.png) 
+#### 9.3	CARONA <br>
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_3.png) 
+#### 9.4	PARTICIPANTE_CARONA <br>
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_4.png) 
+#### 9.5	AVALIACAO <br>
+![Alt text](https://github.com/bd2023elmv/pathfinder/src/select_5.png) 
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
