@@ -19,7 +19,17 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
-> Essa plataforma conecta pessoas que oferecem caronas a pessoas que procuram caronas, proporcionando uma experiência de viagem flexível e personalizada. Você pode se cadastrar como um usuário do sistema, fornecendo informações básicas como nome, telefone, e-mail e criando um login seguro com senha e nome de usuário exclusivos. É possível compartilhar sua viagem diária para o trabalho com outras pessoas que seguem a mesma rota. Ou talvez você esteja planejando uma viagem de longa distância e queira dividir os custos e tornar a jornada mais agradável com companheiros de viagem conhecidos.
+
+> No sistema da Moroa Pathfinder, existem diversas entidades e relacionamentos que precisam ser considerados para que o sistema funcione corretamente. A entidade Pessoa representa os usuários do sistema, sendo necessário registrar informações como nome, telefone e email de cada pessoa, assim como deverá logar com senha e apelido.
+
+> A entidade Carona representa as caronas disponíveis para serem oferecidas e solicitadas no sistema. Cada Carona possui informações como o local de saída, horário de saída, local de destino e horário de chegada. Além disso, é necessário registrar os dados da pessoa que cederá a carona, das pessoas que receberam a carona e também informações do veículo que será usado para a carona, como placa, tipo de veículo, marca e número de assentos.
+
+> O relacionamento entre Pessoa e Carona é 1:N, ou seja, uma pessoa pode oferecer várias caronas, mas uma carona só pode ser cedida por uma pessoa. Por outro lado, uma pessoa que procura uma carona pode selecionar uma das caronas disponíveis, criando um relacionamento N:1 entre Pessoa e Carona.
+
+> Também é possível que uma pessoa que cede a carona possa visualizar todas as pessoas interessadas em participar da carona e decidir se aceita ou não a carona. Nesse caso, temos um relacionamento N:1 entre Carona e Pessoa.
+> 
+> Por fim, uma pessoa pode avaliar a carona e o passageiro, o que cria um relacionamento N:1 entre Pessoa e Avaliação, e outro relacionamento N:1 entre Carona e Avaliação. A entidade Avaliação possui atributos como nota e comentário, representando a opinião da pessoa sobre a carona e/ou passageiro.
+
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
@@ -34,7 +44,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
   
 * Relatório relativo às avaliações feitas pelos usuários, bem como as informações da carona referida
   
-* Relatorio que mostre para cada linha obtida o veículo, seu dono, número de vagas e placa
+* Relatório que mostre para cada linha obtida o veículo, seu dono, número de vagas e placa
   
 * Relatório que mostre as informações relacionadas a todos os usuários
   
