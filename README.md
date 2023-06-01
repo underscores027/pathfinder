@@ -53,7 +53,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
  
  
 #### 4.3 TABELA DE DADOS DO SISTEMA:
-![Exemplo de Tabela de dados da Empresa Pathfinder](https://docs.google.com/spreadsheets/d/1sU4ysGyTBmbPAMhycbn1cy_RSAn8-xCmRkbVHetMuF0/edit?usp=sharing)
+![Exemplo de Tabela de dados da Empresa Pathfinder](https://docs.google.com/spreadsheets/d/1fEzlYw6J-TvsMX7OhIYmhlUsq6KIayEMO9RtgxbyaaM/edit?usp=sharing)
     
     
 ### 5.MODELO CONCEITUAL<br>       
