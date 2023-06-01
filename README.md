@@ -7,6 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Eduardo Henrique Próspero Souza: duvrdx@gmail.com<br>
 Lucas Vieira da Silva: lucasvieiradasilva07@gmail.com<br>
+
 Mattheus Colares Gonçalves: mattheuscg11@hotmail.com<br>
 Victor Oliveira Santos: victoroliveira34vv@gmail.com<br>
 
@@ -14,19 +15,19 @@ Victor Oliveira Santos: victoroliveira34vv@gmail.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
- 
+> A empresa "Pathfinder" desenvolveu um aplicativo que permite às pessoas oferecerem ou aceitarem caronas de forma prática. O objetivo do aplicativo é facilitar o compartilhamento de caronas, proporcionando uma solução conveniente para otimizar o transporte, fornecendo mais opções de veículos aos usuários. Os usuários podem armazenar informações sobre trajetos, horários e preferências de carona no aplicativo. Ele permite criar ofertas de carona e explorar as opções disponíveis, fornecendo um leque de alternativas diferentes de veículos como moto, ônibus, van e etc. promovendo a economia de recursos e a socialização entre os usuários. O "Pathfinder" oferece uma interface intuitiva e recursos de segurança, contribuindo para a redução do tráfego e uma forma mais sustentável de transporte.
+
 
 ### 3.MINI-MUNDO<br>
 
 
-> No sistema da Moroa Pathfinder, existem diversas entidades e relacionamentos que precisam ser considerados para que o sistema funcione corretamente. A entidade Pessoa representa os usuários do sistema, sendo necessário registrar informações como nome, telefone e email de cada pessoa, assim como deverá logar com senha e apelido.
+> No sistema Pathfinder, existem diversas entidades e relacionamentos que precisam ser considerados para que o sistema funcione corretamente. A entidade Pessoa representa os usuários do sistema, sendo necessário registrar informações como nome, telefone, email e endereço de cada pessoa, assim como deverá logar nesse sistema com senha e nome de usuário.
 
-> A entidade Carona representa as caronas disponíveis para serem oferecidas e solicitadas no sistema. Cada Carona possui informações como o local de saída, horário de saída, local de destino e horário de chegada. Além disso, é necessário registrar os dados da pessoa que cederá a carona, das pessoas que receberam a carona e também informações do veículo que será usado para a carona, como placa, tipo de veículo, marca e número de assentos.
+> A entidade Carona representa as caronas disponíveis para serem oferecidas e solicitadas no sistema. Cada Carona possui informações como o local de saída, horário de saída, local de destino e horário de chegada. Além disso, é necessário registrar os dados da pessoa que cederá a carona, das pessoas que receberam a carona e também informações do veículo que será usado para a carona, como placa, tipo de veículo, marca, cor e número de assentos.
 
 > O relacionamento entre Pessoa e Carona é 1:N, ou seja, uma pessoa pode oferecer várias caronas, mas uma carona só pode ser cedida por uma pessoa. Por outro lado, uma pessoa que procura uma carona pode selecionar uma das caronas disponíveis, criando um relacionamento N:1 entre Pessoa e Carona.
 
-> Também é possível que uma pessoa que cede a carona possa visualizar todas as pessoas interessadas em participar da carona e decidir se aceita ou não a carona. Nesse caso, temos um relacionamento N:1 entre Carona e Pessoa.
+> Também é possível que uma pessoa que oferta a carona possa visualizar todas as pessoas interessadas em participar da carona e decidir se aceita ou não a carona. Nesse caso, temos um relacionamento N:1 entre Carona e Pessoa.
 > 
 > Por fim, uma pessoa pode avaliar a carona e o passageiro, o que cria um relacionamento N:1 entre Pessoa e Avaliação, e outro relacionamento N:1 entre Carona e Avaliação. A entidade Avaliação possui atributos como nota e comentário, representando a opinião da pessoa sobre a carona e/ou passageiro.
 
@@ -53,10 +54,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
  
  
 #### 4.3 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+![Exemplo de Tabela de dados da Empresa Pathfinder](https://docs.google.com/spreadsheets/d/1fEzlYw6J-TvsMX7OhIYmhlUsq6KIayEMO9RtgxbyaaM/edit?usp=sharing)
     
     
 ### 5.MODELO CONCEITUAL<br>       
@@ -64,15 +62,21 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: [Kailany faustino, Lucas codeco]
+    • Endereço de pessoa não é descrito no mini mundo e existe no modelo conceitual
+    • No veículo, falta data de fabricação e cor que não está descrito no mini mundo
+
+    Obs: Trabalho muito bem organizado e de fácil entendimento. Os ajustes são pontuais e podem ser feitos de forma rápida
+ 
+ 
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    LOGIN: campo que armazena os dados da pessoa para efetuar o login no sistema.<br>
+    PESSOA: campo que armazena dados de identificação e formas de comunicação de pessoa.<br>
+    CARONA: campo que armazena pessoas e veículos relacionados a carona, e se <br>
+    VEICULO: campo que contém todos os veículos de uma pessoa.<br>
+    AVALIACAO: campo que relaciona pessoa com carona e possibilita a avaliação entre pessoas que participaram de uma carona.<br>
 
 
 ### 6	MODELO LÓGICO<br>
