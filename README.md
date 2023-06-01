@@ -7,8 +7,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Eduardo Henrique Próspero Souza: duvrdx@gmail.com<br>
 Lucas Vieira da Silva: lucasvieiradasilva07@gmail.com<br>
-Mattheus Colares Gonçalves: 
-Victor Oliveira Santos: victoroliveira34vv@gmail.com
+
+Mattheus Colares Gonçalves: mattheuscg11@hotmail.com<br>
+Victor Oliveira Santos: victoroliveira34vv@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
