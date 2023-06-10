@@ -178,9 +178,7 @@ values
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    [Colab](https://colab.research.google.com/drive/1nPcN75w-1UrjmIBCwKdrHAuiW5bAQhCM#scrollTo=I3Aifx050oU_&line=1&uniqifier=1)
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
@@ -201,8 +199,7 @@ values
     a) Criar minimo 1 de cada tipo
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+     [Colab](https://colab.research.google.com/drive/1nPcN75w-1UrjmIBCwKdrHAuiW5bAQhCM#scrollTo=Nj_QSxE88nt7&line=1&uniqifier=1)
 
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
      a) Criar minimo 1 envolvendo GROUP BY
