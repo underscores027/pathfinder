@@ -83,7 +83,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 ![Alt text](./src/modelo_logico.png)   
 
 ### 7	MODELO FÍSICO<br>
-``` 
+```sql
 CREATE TABLE login_pessoa (
     id serial PRIMARY KEY,
     nome varchar(127),
@@ -124,7 +124,7 @@ CREATE TABLE avaliacao (
 ```        
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-```
+```sql
 insert into login_pessoa (nome, telefone, senha, email)values
 ('Norma Fisher',27900090266,'c97997164f74d4e24b3d7a4ce0e8b25c','Norf@hotmail.com'),
 ('Jorge Sullivan',27900093370,'3a141651ed83375318e912e56e61f552','jjorsu@hotmail.com'),
