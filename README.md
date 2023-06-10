@@ -172,16 +172,7 @@ values
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-#### 9.1	VEICULO <br>
-![Alt text](./src/select_1.png) 
-#### 9.2	LOGIN_PESSOA <br>
-![Alt text](./src/select_2.png) 
-#### 9.3	CARONA <br>
-![Alt text](./src/select_3.png) 
-#### 9.4	PARTICIPANTE_CARONA <br>
-![Alt text](./src/select_4.png) 
-#### 9.5	AVALIACAO <br>
-![Alt text](./src/select_5.png) 
+#### 9.1	![Link para o Colab](https://colab.research.google.com/drive/1nPcN75w-1UrjmIBCwKdrHAuiW5bAQhCM?usp=sharing)
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
